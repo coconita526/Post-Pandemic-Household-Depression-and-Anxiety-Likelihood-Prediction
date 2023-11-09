@@ -38,9 +38,10 @@ The findings of this project hold the potential to make a significant positive i
 ### 🎢 1.4 Proposed Data Science solution
 <div align="center">
   
-![]([https://ichef.bbci.co.uk/images/ic/976xn//p03lcphh.jpg.webp](https://github.com/coconita526/capstone/blob/main/Proposed%20Data%20Solution%202023-11-09%20at%203.28.50%20PM.png))
+![](https://github.com/coconita526/capstone/blob/main/Proposed%20Data%20Solution%202023-11-09%20at%203.28.50%20PM.png)
 
 </div>
+
 ### 📊 1.5 Dataset Description
 
 The dataset utilized for this research was sourced from cdc.gov and originates from the collaborative efforts of the National Center for Health Statistics (NCHS) and the U.S. Census Bureau, known as the Household Pulse Survey. This ongoing survey, in its latest phase, Phase 3.10 (August 23 - September 4), is specifically designed to collect crucial data on the social and economic ramifications of the COVID-19 pandemic on households within the United States. 
