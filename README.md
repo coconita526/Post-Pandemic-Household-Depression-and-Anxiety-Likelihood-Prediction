@@ -36,45 +36,11 @@ insights for early detection and targeted interventions, ultimately improving th
 The findings of this project hold the potential to make a significant positive impact on both individuals and society at large. By uncovering the intricate web of factors that contribute to Major Depressive Disorder (MDD) and Generalized Anxiety Disorder (GAD), we are in a position to initiate targeted interventions and support systems. The societal and business values that this project can add are multifold. Firstly, addressing mental health issues proactively can lead to a reduction in lost productivity, saving businesses and organizations millions of dollars in healthcare expenditures and productivity losses. Early detection of mental health issues can also translate into substantial cost savings for individuals and healthcare systems. Moreover, the project's insights are integral in promoting healthier, more resilient communities, fostering improved quality of life for individuals and their families. Overall, this research offers a roadmap for more effective mental health strategies, both at the individual and societal levels, with far-reaching implications for the well-being and productivity of our society.
 
 ### 🎢 1.4 Proposed Data Science solution
-#### 1.4.1 Data Preprocessing and Cleaning
+<div align="center">
+  
+![]([https://ichef.bbci.co.uk/images/ic/976xn//p03lcphh.jpg.webp](https://github.com/coconita526/capstone/blob/main/Proposed%20Data%20Solution%202023-11-09%20at%203.28.50%20PM.png)
 
-- **Data Validation:** We will start by performing data validation to ensure data accuracy and consistency.
-- **Handling Missing Values:** We will address missing data points using appropriate imputation methods.
-- **Outlier Detection:** Identifying and handling outliers that might affect the quality of the analysis.
-
-#### 1.3.2. Data Visualization
-
-- **Exploratory Data Analysis:** Using data visualization to gain insights into the relationships between attributes and mental health outcomes.
-- **Dashboard Creation:** Building interactive dashboards for visualizing key insights and trends.
-
-#### 1.3.3. Feature Engineering
-
-- **Attribute Selection:** We will select the most relevant attributes from the dataset to build predictive models.
-- **Creation of New Features:** Developing new features or variables that can improve model performance.
-- **One-Hot Encoding:** Converting categorical variables into numerical representations.
-
-#### 1.3.4. Predictive Modeling
-
-- **Classification Models:** We will implement classification models to predict the likelihood of anxiety and depression diagnoses.
-- **Regression Models:** Building regression models to predict factors such as stress levels.
-- **Ensemble Techniques:** Utilizing ensemble methods to enhance model accuracy and robustness.
-
-#### 1.3.5. Model Evaluation and Validation
-
-- **Cross-Validation:** Employing cross-validation techniques to assess model performance.
-- **Metrics:** Measuring model accuracy, precision, recall, F1-score, and AUC-ROC where applicable.
-- **Hyperparameter Tuning:** Optimizing model hyperparameters for improved performance.
-
-#### 1.3.6. Interpretability and Explainability
-
-- **Feature Importance:** Identifying the most influential features contributing to the model's predictions.
-- **Model Explanations:** Providing explanations for model predictions to enhance trust and understanding.
-
-#### 1.3.7. Deployment
-
-- **Web Application:** Creating a user-friendly web application to make the model accessible to stakeholders.
-- **Scalability:** Ensuring the solution is scalable and can handle an increasing volume of data.
-
+</div>
 ### 📊 1.5 Dataset Description
 
 The dataset utilized for this research was sourced from cdc.gov and originates from the collaborative efforts of the National Center for Health Statistics (NCHS) and the U.S. Census Bureau, known as the Household Pulse Survey. This ongoing survey, in its latest phase, Phase 3.10 (August 23 - September 4), is specifically designed to collect crucial data on the social and economic ramifications of the COVID-19 pandemic on households within the United States. 
@@ -100,15 +66,15 @@ The project is organized into distinct phases and tasks, each with a specific fo
 **Data Exploration and Visualization**
 
 - Exploratory data analysis (EDA) to gain insights.
-- Creation of interactive dashboards for visualizing key insights.
 
 **Feature Engineering**
 
-- Selection of relevant attributes and creation of new features.
+- Selection of relevant attributes and creation of new features
+- Apply techniques like one-hot encoding, label encoding, or ordinal encoding.
   
 **Predictive Modeling**
 
-- Development of classification and regression models.
+- Development of classification models.
 - Utilization of ensemble techniques for improved accuracy.
 
 **Model Evaluation and Validation**
