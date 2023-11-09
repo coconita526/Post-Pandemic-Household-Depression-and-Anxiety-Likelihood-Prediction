@@ -38,7 +38,7 @@ The findings of this project hold the potential to make a significant positive i
 ### 🎢 1.4 Proposed Data Science solution
 <div align="center">
   
-![]([https://ichef.bbci.co.uk/images/ic/976xn//p03lcphh.jpg.webp](https://github.com/coconita526/capstone/blob/main/Proposed%20Data%20Solution%202023-11-09%20at%203.28.50%20PM.png)
+![]([https://ichef.bbci.co.uk/images/ic/976xn//p03lcphh.jpg.webp](https://github.com/coconita526/capstone/blob/main/Proposed%20Data%20Solution%202023-11-09%20at%203.28.50%20PM.png))
 
 </div>
 ### 📊 1.5 Dataset Description
