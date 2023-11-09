@@ -1,5 +1,4 @@
-
-![Alt Text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bbc.com%2Fculture%2Farticle%2F20160303-what-is-the-meaning-of-the-scream&psig=AOvVaw02azS8Lwd6GtF46Dmk-xOf&ust=1699603406063000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKjguaO6toIDFQAAAAAdAAAAABAD)
+![](https://ichef.bbci.co.uk/images/ic/976xn//p03lcphh.jpg.webp)
 
 <div align="center">
   
