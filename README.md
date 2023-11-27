@@ -86,8 +86,69 @@ The project is organized into distinct phases and tasks, each with a specific fo
 **Interpretability and Explainability**
 
 - Identification of influential features and provision of model explanations.
+  
 
-**Deployment**
+## 🔔 Part 3 Exploratary Data Analysis
 
-- Creation of a user-friendly web application.
-- Ensuring scalability for handling increased data volume.
+### 3.1 
+
+<div align="center">
+  
+![]([eda1.png](https://github.com/coconita526/capstone/blob/main/eda1.png))
+
+</div>
+
+In summary, the data reveals that 22% of the individuals have been diagnosed with Generalized Anxiety Disorder (GAD), and 16% have been diagnosed with Major Depressive Disorder (MAD). Additionally, 12% of the individuals have both conditions. These insights underscore the importance of addressing mental health issues and affirm the significance of this study in shedding light on these concerns.
+
+
+### 3.2
+<div align="center">
+  
+![](https://github.com/coconita526/capstone/blob/main/EDA2.png)
+
+</div>
+
+- 13.3% of Female are diagnosed with both Major Depressive Disorder and Generalized Anxiety Disorder
+However, 78.8% of male showed neither of the mental issues. 
+- Interestingly, transgender is a group with a very high percentage of 39.4% of being diagnosed with both Major Depressive Disorder and Generalized Anxiety Disorder
+
+### 3.3
+<div align="center">
+  
+![](https://github.com/coconita526/capstone/blob/main/EDA3.png)
+
+</div>
+
+- 25.9% of People who reported very stressful about price are diagnosed with both Major Depressive Disorder and Generalized Anxiety Disorder.
+- 93.6 of people who reported not at all stressful about price are diagnosed with neither of the mental issues.
+
+
+## 🐝 Part 4 Feature Engineering
+<div align="center">
+  
+![](https://github.com/coconita526/capstone/blob/main/feature%20engineering%201.png)
+
+</div>
+
+## 💻 Part 5 Modeling & Evaluation 
+<div align="center">
+  
+![](https://github.com/coconita526/capstone/blob/main/Model1.png)
+
+</div>
+
+<div align="center">
+  
+![](https://github.com/coconita526/capstone/blob/main/model2.png)
+
+</div>
+
+
+## 🌻 Part 6 Deployment 
+
+<div align="center">
+  
+![](https://github.com/coconita526/capstone/blob/main/Deployment.png)
+
+</div>
+
