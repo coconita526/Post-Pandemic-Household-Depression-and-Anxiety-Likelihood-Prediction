@@ -122,6 +122,17 @@ However, 78.8% of male showed neither of the mental issues.
 - 25.9% of People who reported very stressful about price are diagnosed with both Major Depressive Disorder and Generalized Anxiety Disorder.
 - 93.6 of people who reported not at all stressful about price are diagnosed with neither of the mental issues.
 
+** Conclusions **
+- The discovery that nearly half of the participants reported symptoms of Major Depressive Disorder (MDD) and Generalized Anxiety Disorder (GAD) underscores the crucial importance and necessity of our study. These findings highlight the pervasive nature of these mental health challenges in the surveyed population, emphasizing the pressing need for mental health interventions and support systems.
+
+- Our analysis revealed that these symptoms are not uniform across all demographics. Notably, over 70% of transgender individuals reported experiencing both MDD and GAD symptoms, signaling a heightened concern for this vulnerable group. Tailoring mental health initiatives to address the unique challenges faced by specific demographic subgroups is essential in ensuring equitable mental health care.
+
+- The strong correlation between stress levels and fluctuations in prices underscores the profound impact of economic conditions on individuals' mental well-being. This linkage emphasizes the need for government and policy-makers to prioritize economic stability and consider measures to mitigate the impact of price changes on households, ultimately reducing overall stress levels.
+
+- The presence of medical resource shortages has added a layer of mental stress, potentially exacerbating mental health issues. Particularly in the wake of the post-pandemic period, where healthcare systems are strained, addressing medical resource shortages is paramount. Focusing on healthcare infrastructure and access to vital medical services is vital to alleviate this strain on mental health.
+
+- Employment status emerged as a decisive factor influencing household financial stability, and consequently, mental health. Our findings reinforce the urgency of initiatives aimed at creating job opportunities, reducing unemployment rates, and expanding the availability of unemployment insurance. Addressing employment-related challenges is integral to improving overall financial stability and promoting better mental health outcomes for individuals and families.
+
 
 ## 🐝 Part 4 Feature Engineering
 <div align="center">
@@ -130,6 +141,10 @@ However, 78.8% of male showed neither of the mental issues.
 
 </div>
 
+- Relabel target columns from 2 classes into 3 classes
+- Encoding columns with ordinal categories with ordinal numbers
+- One-hot encoding for binary columns and create dummies for norminal columns.
+
 ## 💻 Part 5 Modeling & Evaluation 
 <div align="center">
   
@@ -137,11 +152,25 @@ However, 78.8% of male showed neither of the mental issues.
 
 </div>
 
+- The best-performing model, based on accuracy rate, is still the Random Forest model after hyperparameter tuning (Model 6) with an accuracy rate of 71.67%.
+- The decision tree baseline model (Model 9) initially had an accuracy rate of 61.06%, which is lower than other models.
+- Decision trees are sensitive to the data they are trained on. The baseline decision tree might not capture the complexity of the relationship in the data well, resulting in lower accuracy.
+- Hyperparameter tuning (Model 10) significantly improved the decision tree's performance, bringing its accuracy rate closer to other models at 70.39%.
+- This improvement suggests that tuning the decision tree's parameters, such as depth and leaf nodes, allowed it to better capture the underlying patterns in the data, resulting in a more accurate model.
+
 <div align="center">
   
 ![](https://github.com/coconita526/capstone/blob/main/model2.png)
 
 </div>
+
+- The top-performing model is XGBoost - Scaling & Hyperparameter (Model 8) with an accuracy rate of 70.59%.
+    
+- Baseline Decision Tree (Model 9):Default decision tree parameters may not suit the dataset, resulting in lower accuracy.
+- XGBoost Strengths (Model 8):
+    - Ensemble learning, handles non-linear relationships well.
+    - Less prone to overfitting, benefits from scaling and hyperparameter tuning.
+    - Regularization techniques and robustness contribute to its strength.
 
 
 ## 🌻 Part 6 Deployment 
